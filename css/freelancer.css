@@ -25,7 +25,11 @@ min-height: 100%;
 height: auto !important;
 height: 100%;
 margin: 0 auto -9.5em;
-background-image: url('../img/about.jpg');
+background: url('../img/about.jpg') no-repeat center center fixed !important;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .footer, .push {
 height: 4em;
@@ -110,7 +114,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-   background-image: url(../img/background7.jpg);
+   background: url(../img/background7.jpg);
    box-shadow: 0 2px 2px 1000px rgba(0,0,0,.5) inset,0 -2px 2px -1px rgba(0,0,0,.5) inset
 }
 
@@ -592,4 +596,49 @@ footer .footer-below {
 .col-centered {
     float: none;
     margin: 0 auto;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+   
+   
+}
+
+#bio {
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.container .intro-text .name {
+    display: block;
+    
+    font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.container .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    .container .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    .container .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    .container .intro-text .skills {
+        font-size: 1.75em;
+    }
 }
