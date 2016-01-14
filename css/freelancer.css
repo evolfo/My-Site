@@ -25,7 +25,7 @@ min-height: 100%;
 height: auto !important;
 height: 100%;
 margin: 0 auto -9.5em;
-background: url('../img/about.jpg') no-repeat center center fixed !important;
+background: url('../img/about.jpg');
 -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
