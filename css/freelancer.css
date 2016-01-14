@@ -3,7 +3,26 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+* {margin: 0;}
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  height: 100%;
+}
+body {
+  margin: 0;
+  height: 100%;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -9.5em;
+}
+.footer, .push {
+height: 4em;
+}
 body {
     overflow-x: hidden;
     font-family: "News Cycle";
@@ -24,7 +43,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #066288;
 }
 
 h1,
@@ -134,7 +153,7 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 1.5em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -147,6 +166,10 @@ header .intro-text .skills {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+}
+
+@media (max-width: 992px) {
+    .nav>li>a {padding: 3px 9px; padding-top: 19.5px; padding-bottom: 19.5px;} 
 }
 
 .navbar {
@@ -219,7 +242,7 @@ section.success a:hover {color: #000;}
     display: block;
     position: relative;
     margin: 0 auto;
-    max-width: 400px;
+    max-width: 360px;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
@@ -476,6 +499,52 @@ footer .footer-below {
     .background-overlay {display: none;}
 }
 
+.header2 {
+     -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    text-align: center;
+    color: #fff;
+   background-image: url('../img/about.jpg');}
+
+.header2 .container {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.header2 img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.header2 .intro-text .name {
+    display: block;
+    
+    font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.header2 .intro-text .skills {
+    font-size: 1.25em;
+    font-weight: 300;
+}
+
+@media(min-width:768px) {
+    .header2 .container {
+        padding-top: 200px;
+        padding-bottom: 100px;
+    }
+
+    .header2 .intro-text .name {
+        font-size: 4.75em;
+    }
+
+    .header2 .intro-text .skills {
+        font-size: 1.75em;
+    }
+}
 
 .tab-content {text-align: center;}
 .tab-content h3 {letter-spacing: 1px; padding: 5px;}
@@ -493,6 +562,10 @@ footer .footer-below {
 .background-overlay { width: 100%; height: 96%; position: absolute; left: 0; top: 0; bottom: 0; 
     box-shadow: 0 2px 2px 1000px rgba(0,0,0,.5) inset,0 -2px 2px -1px rgba(0,0,0,.5) inset}
 
+.background-overlay2 {}
+.background-overlay2 { width: 100%; height: 96%; position: absolute; left: 0; top: 0; bottom: 0; 
+    box-shadow: 0 2px 2px 1000px rgba(0,0,0,.5) inset,0 -2px 2px -1px rgba(0,0,0,.5) inset}
+
 .success {background-image: url(../img/grid-70.png);}
 .success {box-shadow: 0 2px 2px 1000px rgb(26, 36, 47) inset,0 -2px 2px -1px rgba(0,0,0,.5) inset;}
 
@@ -500,3 +573,7 @@ footer .footer-below {
 
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {color: #CEB89C;}
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {color: #CEB89C;}
+
+#sitePics img {
+    padding: 15px;
+}
