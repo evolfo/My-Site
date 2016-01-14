@@ -470,6 +470,11 @@ footer .footer-below {
     cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+    .close-modal {position: relative !important;}
+     .modal-content {bottom: 170px !important;}
+}
+
 .portfolio-modal .close-modal:hover {
     opacity: .3;
 }
@@ -565,6 +570,10 @@ footer .footer-below {
 .tab-content img {padding: 15px;}
 
 .caption-content p {font-size: 17px; padding: 10px; letter-spacing: .5px;}
+
+@media (max-width: 992px) {
+    .caption-content p {font-size: 15px; padding: 2px;}
+}
 
 #portfolio h2 {padding: 30px; color: black; font-family: 'Montserrat';}
 
