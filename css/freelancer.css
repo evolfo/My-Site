@@ -25,6 +25,7 @@ min-height: 100%;
 height: auto !important;
 height: 100%;
 margin: 0 auto -9.5em;
+box-shadow: 0 2px 2px 1000px rgba(0,0,0,.5) inset,0 -2px 2px -1px rgba(0,0,0,.5) inset;
 background: url('../img/about.jpg');
 -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -606,9 +607,9 @@ footer .footer-below {
 }
 
 #bio {
-    padding-top: 2  100px;
+    padding-top:20px;
     padding-bottom: 50px;
-    box-shadow: 0 2px 2px 1000px rgba(0,0,0,.5) inset,0 -2px 2px -1px rgba(0,0,0,.5) inset}
+    text-shadow: 1px 1px 1px black;
 }
 
 #bio img {
@@ -631,7 +632,7 @@ footer .footer-below {
 
 @media(min-width:768px) {
     #bio {
-        padding-top: 60px;
+        padding-top: 100px;
         padding-bottom: 100px;
     }
 
