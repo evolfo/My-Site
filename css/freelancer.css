@@ -617,6 +617,8 @@ footer .footer-below {
     margin: 0 auto 20px;
 }
 
+#bio a {color: #7CCDF7;}
+
 #bio .intro-text .name {
     display: block;
     
