@@ -606,7 +606,7 @@ footer .footer-below {
 }
 
 #bio {
-    padding-top: 200px;
+    padding-top: 2  100px;
     padding-bottom: 50px;
     box-shadow: 0 2px 2px 1000px rgba(0,0,0,.5) inset,0 -2px 2px -1px rgba(0,0,0,.5) inset}
 }
@@ -631,7 +631,7 @@ footer .footer-below {
 
 @media(min-width:768px) {
     #bio {
-        padding-top: 200px;
+        padding-top: 60px;
         padding-bottom: 100px;
     }
 
