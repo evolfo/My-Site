@@ -180,11 +180,11 @@ header .intro-text .skills {
         font-size: 1.5em;
     }
 }
-
+/*
 @media (max-width: 992px) {
     .nav>li>a {padding: 3px 9px; padding-top: 19.5px; padding-bottom: 19.5px; letter-spacing: -1px;} 
 }
-
+*/
 .navbar {
     
     font-family: 'Montserrat',"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -575,7 +575,7 @@ footer .footer-below {
     .caption-content p {font-size: 15px; padding: 2px;}
 }
 
-#portfolio h2 {padding: 30px; color: black; font-family: 'Montserrat';}
+#portfolio h2 {padding: 50px; color: black; font-family: 'Montserrat';}
 
 .modal-content {background-color: rgba(0, 0, 0, 0.00); top: 50px; right: 50px; left: 50px; bottom: 50px; position: absolute; margin: auto; height: 40%; width: }
 
