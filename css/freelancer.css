@@ -116,6 +116,7 @@ header {
     text-align: center;
     color: #fff;
    background: url(../img/background7.jpg);
+   background-size: cover;
    box-shadow: 0 2px 2px 1000px rgba(0,0,0,.5) inset,0 -2px 2px -1px rgba(0,0,0,.5) inset
 }
 
